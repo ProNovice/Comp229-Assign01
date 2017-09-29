@@ -2,16 +2,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
                 <div class="hero-image">
                 <!--Image Source: http://www.outsourcing-pharma.com/Commercial-Services/How-and-why-CROs-are-collecting-and-using-patient-centric-data-->
                     
-                        <div class="home-right-area">
+                        <div class="home-rightArea">
                             
                             <p>
-                                <img class="round-image-100px" src="Assets/logo_icon_100px.png"></img>
-                                <h1><strong>Minseok Choi</strong></h1>
-                                <hr /><h3>A Novice Programmer</h3>
+                                <a href="About.aspx">   <!--Image link to About-->
+                                    <img class="logo-image" src="Assets/logo_image.PNG" style="width:inherit" />  <!--Unique logo image-->
+                                 </a>                                
+                                <hr /><h3>An Enterprising Programmer</h3>
 
                             </p>
 

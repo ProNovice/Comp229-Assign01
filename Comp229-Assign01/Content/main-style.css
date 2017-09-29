@@ -1,7 +1,7 @@
 ﻿/*setting for hero image*/
 .hero-image {
     background-image: url(../Assets/img-background.png);
-    height: 900px;
+    height: 920px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,19 +27,26 @@
 .profil-image {
     border-radius: 30px;
     box-shadow: 5px 5px #999999;
-    margin: 20px;
+    margin-right: 100px;
     float:left;
 }
 
+/*navigation bar height and font size*/
+.navbar-top-style {
+    font-size:20px;
+    height: 50px;
+}
+
 /*right side area in Home page*/
-.home-right-area {
+.home-rightArea {
     background-color: rgba(0, 0, 0, 0.7);
     color: #CCCCCC;
     padding: 100px;
     height: 100%;
-    width: 30%;
+    min-width: 300px;
     float: right;
 }
+
 
 /*Vertically center, horizontally center*/
 .centerOfPage {
@@ -59,10 +66,28 @@
     background-color: #ffffff;
     padding: 100px;
     min-height: 920px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.sub-container {
+    padding: 50px;
+    margin: 50px;
+    border-style: groove;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: arial;
+    text-indent: 20px;
+    box-shadow: 5px 5px #808080;
+}
+.sub-container-title {
+    font-size: 28px;
+    color: #CC3300;
+    font-weight: bold;
 }
 
 /*text in the common box*/
-.middle-text {
+.medium-text {
     text-indent: 40px;
     line-height: 25px;
     font-size: 20px;
@@ -73,3 +98,31 @@
     background-color: #cccccc;
     min-height: 920px;
 }
+
+.logo-image {
+    max-width: 300px;
+
+}
+
+/*titles of medium level*/
+.medium-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/*indexes of medium level*/
+.medium-index {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+/*most of text in content*/
+.about-text {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+
+
+
+

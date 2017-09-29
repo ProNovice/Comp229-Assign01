@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\logo_icon.PNG" />
+    <Content Include="Assets\logo_image.PNG" />
+    <Content Include="Content\main-style.css" />
     <Content Include="MasterPage.Master" />
     <Content Include="Assets\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\glyphicons-halflings-regular.ttf" />
@@ -88,8 +91,7 @@
     <Content Include="Assets\my_photo_300px.png" />
     <Content Include="Assets\my_photo_350px.png" />
     <Content Include="Assets\my_photo_200px.png" />
-    <Content Include="Assets\logo_icon_100px.png" />
-    <Content Include="Assets\logo_icon.png" />
+    <Content Include="Assets\my_photo_100px.png" />
     <Content Include="Assets\glyphicons-halflings-regular.svg" />
     <Content Include="Assets\img-background.png" />
     <Content Include="Assets\myPhoto.png" />
@@ -98,7 +100,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\main.css" />
     <Content Include="Home.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

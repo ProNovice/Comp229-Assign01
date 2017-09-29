@@ -4,7 +4,7 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="Content/bootstrap.min.css" />
-<link rel="stylesheet" href="Content/main.css" />
+<link rel="stylesheet" href="Content/main-style.css" />
 
 <html>
 <head runat="server">
@@ -19,10 +19,10 @@
     <!-- Bootstrap JavaScript -->
     <script src="Scripts/bootstrap.min.js"></script> 
         <div class ="navi-top">
-            <nav class="navbar-inverse navbar-fixed-top">   <!-- black and fixed navigation bar -->
+            <nav class="navbar-inverse navbar-fixed-top navbar-top-style">   <!-- black and fixed navigation bar -->
                 <div class="container-fluid"> <!--this class constantly resize as size of browser width.-->
                     <div class="navbar-header">
-                      <a class="navbar-brand" href="Home.aspx">Minseok Choi</a> <!--Emphasize the part inside a navigation bar-->
+                      <a class="navbar-brand" href="Home.aspx"><img src="Assets/logo_image.PNG" style="height: 30px" /></a> <!--Emphasize the part inside a navigation bar, and arrage the location of image-->
                     </div>
                     <ul class="nav navbar-nav"><!--navbar-nav is for <ul>containter inside a navigation bar-->
                       <li><a href="Home.aspx">Home</a></li>
