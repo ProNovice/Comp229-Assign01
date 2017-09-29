@@ -34,7 +34,7 @@
                     <p>
                         <!--User E-mail-->
                         <label id="lbEMail" class="medium-index form-label">E-mail: </label>
-                        <input id="txtEMail" type="text" runat="server"/>
+                        <input id="txtEMail" type="email" runat="server"/>
 
                     </p>
                     <p>
