@@ -21,16 +21,16 @@ namespace Comp229_Assign01
             {
                 // take all information from the form
                 string name = txtName.Value;
-                string from = txtEMail.Value;
+                string email = txtEMail.Value;
                 string number = txtNumber.Value;
                 string text = txtMessage.Value;
-                string content = "Name: " + name + "\nE-mail: " + from + "\nPhone number: " + "\nMessage: \n" + text;
+                string content = "Name: " + name + "\nE-mail: " + email + "\nPhone number: " + "\nMessage: \n" + text;
 
                 //create a MailMessage to send E-mail
                 //Reference: https://msdn.microsoft.com/en-us/library/67w4as51.aspx
-                MailMessage message = new MailMessage(from, "pronovice2000@gmail.com", "Contact from " + name, content);   // Syntax: MailMessage( from Mail, to Mail, title, body)            
+                MailMessage message = new MailMessage(email, "pronovice2000@gmail.com", "Contact from " + name, content);   // Syntax: MailMessage( from Mail, to Mail, title, body)            
 
-                //
+                //SMTP server and port number
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
 
                 smtpClient.UseDefaultCredentials = false;
@@ -39,7 +39,7 @@ namespace Comp229_Assign01
                 // Using Ssl
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                 // It is necessary to be authenticated from Gmail.
-                smtpClient.Credentials = new System.Net.NetworkCredential("pronovice2000@gmail.com", "797797cc!!");
+                smtpClient.Credentials = new System.Net.NetworkCredential("sojeontest01@gmail.com", "thwjsxptmxm"); // the email to use
                 // Get authenticated by Gmail address and password
 
                 smtpClient.Send(message);

@@ -49,7 +49,7 @@
                     </p>
                     <p>
                         <!--Textarea for User message-->
-                        <textarea id="txtMessage" class="form-textArea" name="txtMessage" rows="7" runat="server">Please put message</textarea>
+                        <textarea id="txtMessage" class="form-textArea" name="txtMessage" rows="7" runat="server">Please put the message</textarea>
                     </p>
                     <br /><br />
                         <!--Send Button-->
