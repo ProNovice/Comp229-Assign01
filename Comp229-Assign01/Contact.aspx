@@ -22,25 +22,25 @@
             </div>
             <div class="sub-container">
                 <!-- User Form -->
-                <form method="post">
+                <form id="contactForm">
                     <p><h3><strong>Send Message</strong></h3></p>
                     <br />
                     <p>
                         <!--User name-->
                         <label id="lbName" class="medium-index form-label">Name: </label>
-                        <input id="txtName" type="text" />
+                        <input id="txtName" type="text" runat="server"/>
 
                     </p>
                     <p>
                         <!--User E-mail-->
                         <label id="lbEMail" class="medium-index form-label">E-mail: </label>
-                        <input id="txtEMail" type="text" />
+                        <input id="txtEMail" type="text" runat="server"/>
 
                     </p>
                     <p>
                         <!--User phone number-->
                         <label id="lbNumber" class="medium-index form-label">Phone Number: </label>
-                        <input id="txtNumber" type="text" />
+                        <input id="txtNumber" type="text" runat="server"/>
 
                     </p>
                     <p>
@@ -49,13 +49,15 @@
                     </p>
                     <p>
                         <!--Textarea for User message-->
-                        <textarea class="form-textArea" name="txtMessage" rows="7">Please put message</textarea>
+                        <textarea id="txtMessage" class="form-textArea" name="txtMessage" rows="7" runat="server">Please put message</textarea>
                     </p>
                     <br /><br />
                         <!--Send Button-->
                     <p class="text-center">
-                        <a  href="Home.aspx"><button type="button">Send</button></a>
+                        <button type="button" runat="server" onserverclick="sendButton_click">Send</button>
                     </p>
+                        <!--Result Label-->
+                    <p><asp:Label id="lbResult" runat="server" /></p>
                 </form>
             </div> 
     </div>
