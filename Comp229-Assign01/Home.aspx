@@ -5,19 +5,13 @@
                 <div class="hero-image">
                 <!--Image Source: http://www.outsourcing-pharma.com/Commercial-Services/How-and-why-CROs-are-collecting-and-using-patient-centric-data-->
                     
-                        <div class="home-rightArea">
-                            
+                        <div class="home-rightArea">                            
                             <p>
                                 <a href="About.aspx">   <!--Image link to About-->
                                     <img class="logo-image" src="Assets/logo_image.PNG" style="width:inherit" />  <!--Unique logo image-->
                                  </a>                                
                                 <hr /><h3>An Enterprising Programmer</h3>
-
                             </p>
-
-
                         </div>
-
                 </div>
-
 </asp:Content>

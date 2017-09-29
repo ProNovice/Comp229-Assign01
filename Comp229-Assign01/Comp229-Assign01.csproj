@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\icon_facebook.png" />
+    <Content Include="Assets\icon_github.png" />
+    <Content Include="Assets\icon_linkedin.png" />
     <Content Include="Assets\logo_icon.PNG" />
     <Content Include="Assets\logo_image.PNG" />
     <Content Include="Content\main-style.css" />
